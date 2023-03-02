@@ -42,7 +42,10 @@ export default {
         { hid: 'tween', src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js', defer: true },
         { hid: 'typed', src: 'typed.min.js', defer: true },
         { hid: 'app', src: 'app.js', defer: true }
-      ]
+      ],
+      link: [
+        { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Caveat&display=swap" }
+      ],
     }
   },
 

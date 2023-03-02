@@ -2,7 +2,7 @@
 TweenLite.set("#petals", { perspective:600 })
 TweenLite.set("img", { xPercent:"-50%", yPercent:"-50%" })
 
-var total = 50;
+var total = 20;
 var warp = document.getElementById("petals"),
     w = window.innerWidth,
     h = window.innerHeight;
