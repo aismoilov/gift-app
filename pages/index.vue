@@ -44,7 +44,7 @@ export default {
         { hid: 'app', src: 'app.js', defer: true }
       ],
       link: [
-        { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Caveat&display=swap" }
+        { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Caveat&display=swap" },
       ],
     }
   },
