@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 :root {
   --dark-color: #000;
 }
@@ -66,7 +67,7 @@ html, body {
   height: 100vh;
   display: flex;
   gap: 20px;
-  padding: 20px;
+  padding: 40px;
 }
 
 .card {
@@ -122,17 +123,21 @@ html, body {
 
 @media (max-width: 1023px) {
   .flowers {
-    position: absolute;
+    position: absolute !important;
     bottom: 0;
     left: 50%;
   }
 
+  .content {
+    padding: 20px;
+  }
+
   .title {
-    font-size: 40px;
+    font-size: 52px;
   }
 
   .text {
-    font-size: 24px;
+    font-size: 28px;
   }
 }
 
