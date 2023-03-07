@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div id="petals"></div>
+    <div></div>
     <loader v-if="loading" />
     <div v-else>
       <div class="content">
