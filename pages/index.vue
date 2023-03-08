@@ -6,11 +6,7 @@
         <flowers class="flowers" />
         <div class="card">
             <div class="title">{{ gift.name }}</div>
-            <client-only>
-              <vue-typed-js :show-cursor="false" :strings="[gift.congratulation]" @onComplete="showAuthor">
-                <div class="text typing" id="text"></div>
-              </vue-typed-js>
-            </client-only>
+            <div class="text typing" id="text">{{ gift.congratulation }}</div>
             <div class="author" id="author">- {{ gift.author }}</div>
         </div>
       </div>
@@ -120,7 +116,7 @@ export default {
       }
     }
     this.loading = false;
-    // this.$store.dispatch('getGift', hash);
+    this.showAuthor();
   },
 
   methods: {
